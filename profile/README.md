@@ -1,0 +1,149 @@
+<div align="center">
+  <img src="https://images.squarespace-cdn.com/content/v1/607861b10c0e3b4816f56581/3eea3ca7-58ca-402d-9edf-b8e9e72eca3c/lightning.png?format=300w" alt="Photon Commerce">
+
+  <h1>Photon Commerce</h1>
+  <p><strong>Managed AI Agents for Financial Document Extraction</strong></p>
+
+  <p>
+    <a href="https://www.photoncommerce.com"><img src="https://img.shields.io/badge/SOC%202-Compliant-blue?style=for-the-badge" alt="SOC 2"></a>
+    &nbsp;&nbsp;
+    <a href="https://www.photoncommerce.com"><img src="https://img.shields.io/badge/GDPR-Attested-blue?style=for-the-badge" alt="GDPR"></a>
+    &nbsp;&nbsp;
+    <a href="https://www.photoncommerce.com/pricing"><img src="https://img.shields.io/badge/Accuracy-99%25%2B-00C853?style=for-the-badge" alt="Accuracy"></a>
+    &nbsp;&nbsp;
+    <a href="https://www.photoncommerce.com/platform"><img src="https://img.shields.io/badge/Languages-25%2B-FF6D00?style=for-the-badge" alt="Languages"></a>
+  </p>
+
+  [Website](https://www.photoncommerce.com) &nbsp;·&nbsp; [API Docs](https://apidocs.photoncommerce.com) &nbsp;·&nbsp; [Pricing](https://www.photoncommerce.com/pricing) &nbsp;·&nbsp; [Free Trial](https://app.photoncommerce.com)
+</div>
+
+---
+
+## What We Do
+
+Photon Commerce provides **Managed AI Agents** that extract structured data from financial and trade documents with 99%+ accuracy — backed by Human-in-the-Loop (HITL) verification and a global reviewer network of 2,300+ experts across 7+ countries.
+
+We eliminate manual data entry for finance, operations, and compliance teams.
+
+---
+
+## Document Types
+
+| Document | Key Extracted Fields |
+|----------|---------------------|
+| **Invoices** | Vendor, Bill To, line items, amounts, PO numbers, due dates, GL codes |
+| **Receipts** | Merchant, items, totals, taxes, payment method, date |
+| **Bank Statements** | Transactions, balances, account details, fraud indicators |
+| **Bills of Lading** | Shipment details, carrier, consignee, cargo description |
+| **Remittances** | Payment references, invoice matches, amounts |
+| **Purchase Orders** | Line items, pricing, delivery terms, vendor info |
+| **Checks & Stubs** | Payer, Payee, LAR, CAR, MICR details: routing/account/check numbers |
+| **Insurance Statements** | Policy details, coverage, claims data |
+| **Tax Forms** | Entity details, amounts, classification codes |
+| **Custom Documents** | Any structured or semi-structured document |
+
+100+ standardized fields per document &nbsp;·&nbsp; 25+ languages &nbsp;·&nbsp; Handwriting, barcodes, tables, and stamps supported
+
+---
+
+## How It Works
+
+```
+Document In → Photon Engine (AI + OCR + NLP) → Human-in-the-Loop QA + Managed Agents → Structured Data Out
+```
+
+## Simple to Start. Powerful to Scale.
+
+*Plug in, send an email, or just log in.*
+
+**1. API** — integrate directly into your existing systems
+
+```python
+import requests
+
+response = requests.post(
+    "https://api.photoncommerce.com/api/pro",
+    headers={
+        "CLIENT-ID":     "YOUR_CLIENT_ID",
+        "AUTHORIZATION": "apikey YOUR_USERNAME:YOUR_API_KEY",
+        "PASSWORD":      "YOUR_PASSWORD",
+        "SECRET-KEY":    "YOUR_SECRET_KEY",
+    },
+    params={"doctype": "invoice"},
+    files={"pdf": open("invoice.pdf", "rb")},
+)
+photon_key = response.json()["photon_key"]  # use to retrieve results
+```
+
+**2. Email** — no integration required
+
+Forward any document to **[ai@photoncommerce.com](mailto:ai@photoncommerce.com)** and receive structured JSON back in your inbox. Works with CC/BCC rules for fully automated inbox workflows.
+
+**3. Web App & Mobile App** — no code needed
+
+Upload documents, review extractions, and manage workflows at **[app.photoncommerce.com](https://app.photoncommerce.com)**.
+
+---
+
+## Processing Tiers
+
+| Tier | Turnaround | Price/Field | Notes |
+|------|-----------|-------------|-------|
+| Instant | Seconds | $0.01 | OCR only, no HITL |
+| Standard | 24 hours | $0.01 | 99%+ accuracy, HITL included |
+| Flash | 4 hours | $0.02 | 99%+ accuracy, HITL included |
+| Turbo | 1 hour | $0.03 | 99%+ accuracy, HITL included |
+| LightSpeed | 10 minutes | $0.04 | 99%+ accuracy, HITL included |
+
+Pay only for what you extract. [Free trial + $500 in credits →](https://www.photoncommerce.com/pricing)
+
+---
+
+## Output Formats
+
+JSON &nbsp;·&nbsp; CSV &nbsp;·&nbsp; XML &nbsp;·&nbsp; XLSX &nbsp;·&nbsp; EDI (810, 820, 850) &nbsp;·&nbsp; cXML &nbsp;·&nbsp; Peppol &nbsp;·&nbsp; ISO 20022 &nbsp;·&nbsp; OASIS UBL &nbsp;·&nbsp; Proprietary ERP formats
+
+---
+
+## Integrations
+
+**ERP & Accounting:** QuickBooks · Xero · SAP Ariba · NetSuite · Oracle · Bill.com · Coupa  
+**Finance & Banking:** Brex · Plaid · Yodlee · Federal Reserve FedNow  
+**E-Commerce:** Amazon Vendor Central · Shopify  
+**Automation:** UIPath · Microsoft · NVIDIA  
+**E-Invoicing:** Chorus Pro · Taulia · Tungsten · Transcepta · Basware
+
+Integration takes 1 day to 1 week depending on workflow complexity.
+
+---
+
+## Compliance & Security
+
+- SOC 2 Type II certified
+- GDPR attested
+- HIPAA compliant
+- End-to-end encryption at rest and in transit
+- Role-based access control
+- Personal data identification and scrubbing on request
+
+---
+
+## Repositories
+
+| Repo | Description |
+|------|-------------|
+| [`examples`](https://github.com/Photon-Commerce/examples) | Code samples for every document type and integration |
+| [`openapi`](https://github.com/Photon-Commerce/openapi) | OpenAPI 3.0 specification for the Photon PRO API |
+
+---
+
+## Get Started
+
+| | |
+|-|-|
+| **API Docs** | [apidocs.photoncommerce.com](https://apidocs.photoncommerce.com) |
+| **Free Trial** | [app.photoncommerce.com](https://app.photoncommerce.com) |
+| **Email Integration** | [ai@photoncommerce.com](mailto:ai@photoncommerce.com) |
+| **Pricing** | [photoncommerce.com/pricing](https://www.photoncommerce.com/pricing) |
+| **Contact** | [developers@photoncommerce.com](mailto:developers@photoncommerce.com) |
+| **LinkedIn** | [linkedin.com/company/photoncommerce](https://www.linkedin.com/company/photoncommerce) |
