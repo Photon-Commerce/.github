@@ -87,15 +87,9 @@ Upload documents, review extractions, and manage workflows at **[app.photoncomme
 
 ## Processing Tiers
 
-| Tier | Turnaround | Price/Field | Notes |
-|------|-----------|-------------|-------|
-| Instant | Seconds | $0.01 | OCR only, no HITL |
-| Standard | 24 hours | $0.01 | 99%+ accuracy, HITL included |
-| Flash | 4 hours | $0.02 | 99%+ accuracy, HITL included |
-| Turbo | 1 hour | $0.03 | 99%+ accuracy, HITL included |
-| LightSpeed | 10 minutes | $0.04 | 99%+ accuracy, HITL included |
+Multiple tiers available from seconds to 24 hours, with 99%+ accuracy and Human-in-the-Loop verification included. Pay only for what you extract.
 
-Pay only for what you extract. [Free trial + $500 in credits →](https://www.photoncommerce.com/pricing)
+[View current pricing and start your free trial →](https://www.photoncommerce.com/pricing)
 
 ---
 
