@@ -2,7 +2,7 @@
   <img src="https://images.squarespace-cdn.com/content/v1/607861b10c0e3b4816f56581/3eea3ca7-58ca-402d-9edf-b8e9e72eca3c/lightning.png?format=300w" alt="Photon Commerce">
 
   <h1>Photon Commerce</h1>
-  <p><strong>Managed AI Agents for Financial Document Extraction</strong></p>
+  <p><strong>Managed AI Agents for Document Data Extraction</strong></p>
 
   <p>
     <a href="https://www.photoncommerce.com"><img src="https://img.shields.io/badge/SOC%202-Compliant-blue?style=for-the-badge" alt="SOC 2"></a>
