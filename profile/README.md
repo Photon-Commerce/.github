@@ -21,7 +21,7 @@
 
 ## What We Do
 
-Photon Commerce provides **Managed AI Agents** that extract structured data from financial and trade documents with 99%+ accuracy — backed by Human-in-the-Loop (HITL) verification and a global reviewer network of 2,300+ experts across 7+ countries.
+Photon Commerce provides **Managed AI Agents** that extract structured data from financial and trade documents with 99%+ accuracy.
 
 We eliminate manual data entry for finance, operations, and compliance teams.
 
@@ -49,7 +49,7 @@ We eliminate manual data entry for finance, operations, and compliance teams.
 ## How It Works
 
 ```
-Document In → Photon Engine (AI + OCR + NLP) → Human-in-the-Loop QA + Managed Agents → Structured Data Out
+Document In → Photon Engine (AI + OCR + NLP) → Managed Agents → Structured Data Out
 ```
 
 ## Simple to Start. Powerful to Scale.
@@ -87,7 +87,7 @@ Upload documents, review extractions, and manage workflows at **[app.photoncomme
 
 ## Processing Tiers
 
-Multiple tiers available from seconds to 24 hours, with 99%+ accuracy and Human-in-the-Loop verification included. Pay only for what you extract.
+Multiple tiers available from seconds to 24 hours, with 99%+ accuracy and Managed Agents included. Pay only for what you extract.
 
 [View current pricing and start your free trial →](https://www.photoncommerce.com/pricing)
 
@@ -126,8 +126,8 @@ Integration takes 1 day to 1 week depending on workflow complexity.
 
 | Repo | Description |
 |------|-------------|
-| [`examples`](https://github.com/Photon-Commerce/examples) | Code samples for every document type and integration |
-| [`openapi`](https://github.com/Photon-Commerce/openapi) | OpenAPI 3.0 specification for the Photon PRO API |
+| [`photon-invoice`](https://github.com/Photon-Commerce/photon-invoice) | Extract structured data from invoices — Python, cURL, and more |
+| [`photon-receipt`](https://github.com/Photon-Commerce/photon-receipt) | Extract structured data from receipts — Python, cURL, and more |
 
 ---
 
