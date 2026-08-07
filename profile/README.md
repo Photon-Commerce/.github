@@ -135,6 +135,8 @@ Integration takes 1 day to 1 week depending on workflow complexity.
 
 | | |
 |-|-|
+| **Try in Claude**  | [Photon Commerce on Claude](https://claude.ai/directory/connectors/photoncommerce) |
+| **Try in ChatGPT** | [Photon Commerce on ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_696685b735588191b9f25f976cfda7b2) |
 | **API Docs** | [apidocs.photoncommerce.com](https://apidocs.photoncommerce.com) |
 | **Free Trial** | [app.photoncommerce.com](https://app.photoncommerce.com) |
 | **Email Integration** | [ai@photoncommerce.com](mailto:ai@photoncommerce.com) |
