@@ -21,7 +21,7 @@
 
 ## What We Do
 
-Photon Commerce provides **Managed AI Agents** that extract structured data from financial and trade documents with 99%+ accuracy.
+Photon Commerce provides **Managed AI Agents** that extract structured data from financial and trade documents with 99.9%+ accuracy.
 
 We eliminate manual data entry for finance, operations, and compliance teams.
 
@@ -87,7 +87,7 @@ Upload documents, review extractions, and manage workflows at **[app.photoncomme
 
 ## Processing Tiers
 
-Multiple tiers available from seconds to 24 hours, with 99%+ accuracy and Managed Agents included. Pay only for what you extract.
+Multiple tiers available from seconds to 24 hours, with 99.9%+ accuracy and Managed Agents included. Pay only for what you extract.
 
 [View current pricing and start your free trial →](https://www.photoncommerce.com/pricing)
 
@@ -128,6 +128,8 @@ Integration takes 1 day to 1 week depending on workflow complexity.
 |------|-------------|
 | [`photon-invoice`](https://github.com/Photon-Commerce/photon-invoice) | Extract structured data from invoices — Python, cURL, and more |
 | [`photon-receipt`](https://github.com/Photon-Commerce/photon-receipt) | Extract structured data from receipts — Python, cURL, and more |
+| [`photon-statement`](https://github.com/Photon-Commerce/photon-statement) | Extract structured data from statements — Python, cURL, and more |
+
 
 ---
 
