@@ -129,6 +129,7 @@ Integration takes 1 day to 1 week depending on workflow complexity.
 | [`photon-invoice`](https://github.com/Photon-Commerce/photon-invoice) | Extract structured data from invoices — Python, cURL, and more |
 | [`photon-receipt`](https://github.com/Photon-Commerce/photon-receipt) | Extract structured data from receipts — Python, cURL, and more |
 | [`photon-statement`](https://github.com/Photon-Commerce/photon-statement) | Extract structured data from statements — Python, cURL, and more |
+| [`photon-bill-of-lading`](https://github.com/Photon-Commerce/photon-bill-of-lading) | Extract structured data from bills of lading — Python, cURL, and more |
 
 
 ---
